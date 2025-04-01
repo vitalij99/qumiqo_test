@@ -7,7 +7,7 @@ import PostModal from '@/app/_components/PostModal/PostModal';
 import './postList.scss';
 
 interface PropsPostList {
-  posts: { data: Post[]; meta: any };
+  posts: { data: Post[] };
 }
 
 const PostList = ({ posts }: PropsPostList) => {
