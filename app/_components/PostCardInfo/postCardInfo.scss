@@ -1,0 +1,16 @@
+.author {
+  &-info {
+    width: 321px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+  }
+}
+
+.smile-wrapper {
+  display: flex;
+  padding: 5px;
+  border: solid 2px #ebebeb;
+  border-radius: 50%;
+}
