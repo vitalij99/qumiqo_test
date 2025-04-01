@@ -1,6 +1,8 @@
-import { Post } from '@/types';
 import React from 'react';
-import PostCard from '../PostCard/PostCard';
+import { Post } from '@/types';
+import PostCard from '@/app/_components/PostCard/PostCard';
+
+import './postlist.scss';
 
 interface PropsPostList {
   posts: { data: Post[]; meta: any };
@@ -8,7 +10,7 @@ interface PropsPostList {
 
 const PostList = ({ posts }: PropsPostList) => {
   return (
-    <ul>
+    <ul className="post-list">
       {posts && posts.data.map(post => <PostCard key={post._id} post={post} />)}
     </ul>
   );
