@@ -1,0 +1,28 @@
+.pagination-image_wrapper {
+  display: flex;
+  border-radius: 15px;
+  border: solid 1px #f7f8fa;
+  padding: 3px;
+}
+.pagination-item {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f7f8fa;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:first-child {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+  &:last-child {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  &.action {
+    background-color: #ecd9b9;
+  }
+}
