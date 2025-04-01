@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { Post } from '@/types';
 
 import PostCardInfo from '@/app/_components/PostCardInfo/PostCardInfo';
-import './postCard.scss';
+import './postcard.scss';
 
 const BASE_Link = 'https://api.qumiqo.com';
 const PostCard = ({

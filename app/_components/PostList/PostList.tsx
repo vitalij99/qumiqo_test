@@ -4,7 +4,7 @@ import { Post } from '@/types';
 import PostCard from '@/app/_components/PostCard/PostCard';
 import PostModal from '@/app/_components/PostModal/PostModal';
 
-import './postList.scss';
+import './postlist.scss';
 
 interface PropsPostList {
   posts: { data: Post[] };
